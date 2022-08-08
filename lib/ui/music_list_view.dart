@@ -72,6 +72,13 @@ class _GetMusicListState extends State<GetMusicList> {
                             return TrackList(musicList: snapshot.data.data);
                             break;
                           case Status.ERROR:
+                            return Center(
+                              child: Text(
+                                'No internet',
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            );
+                            break;
                             break;
                         }
                       }
