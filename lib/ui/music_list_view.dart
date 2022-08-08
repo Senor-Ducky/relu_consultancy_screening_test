@@ -83,7 +83,10 @@ class _GetMusicListState extends State<GetMusicList> {
               case ConnectivityResult.none:
                 //print('No net: ');
                 return Center(
-                  child: Text('No internet'),
+                  child: Text(
+                    'No internet',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 );
                 break;
             }
