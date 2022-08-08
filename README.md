@@ -1,6 +1,6 @@
 # relu_consultancy_test
 
-A new Flutter project.
+A BLoC patter music application for flutter intern position at Relu Consultancy.
 
 ## Getting Started
 
